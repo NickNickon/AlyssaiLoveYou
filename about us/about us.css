@@ -1,0 +1,149 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+
+.nav__responsive-ul{
+	display: none;
+}
+
+.nav {
+	background-color: #C299C2;
+	box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+}
+
+.nav__li{
+	display: inline-block;
+	padding: 12px;
+	color: #fff;
+}
+
+.nav__li:hover > a{
+	color: #000;
+}
+
+.nav__li:hover{
+	color: #000;
+}
+
+.nav__li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__li i{
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 5px;
+	box-shadow: 1px 1px 2px rgba(165, 177, 198, 0.8),
+    -1px -1px -2px rgba(255, 255, 255, 0.8);
+}
+
+body{
+	background-color: #E8E8E8;
+}
+
+.Home {
+	text-shadow: 1px 1px 1px gray;
+}
+
+.Home h1{
+	padding: 25px;
+	margin: 15px;
+	display: inline-block;
+	border:  ##bf9b9f solid 1px;
+	background: #EBBFC4;
+	box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+	border-style: groove, lightgrey;
+	border-radius: 12px;
+}
+
+.Home .galaxy{
+	padding: 25px;
+	margin: 15px;
+	display: block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+ 	box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8);
+    cursor: pointer;
+}
+
+.Home p, #p2{
+	padding: 25px;
+	margin: 15px;
+	display: block;
+	border:  ##bf9b9f solid 1px;
+	background: #EBBFC4;
+	box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+	border-style: groove, lightgrey;
+	border-radius: 12px;
+}
+
+#p2 a{
+	color: white;
+	text-decoration: none;
+}
+
+#p2 a:hover{
+	color: #969595;
+	text-decoration: none;
+}
+
+hr{
+	height: 5px;
+	border: 7px solid #lightgrey;
+	box-shadow: 3px 3px 6px lightgrey;
+}
+
+.Home .bora{
+	padding: 25px;
+	margin: 15px;
+	display: inline;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+ 	box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8);
+    cursor: pointer;
+}
+
+.Home .greece{
+	padding: 25px;
+	margin: 15px;
+	display: inline;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+ 	box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8);
+    cursor: pointer;
+    }
+
+@media only screen and (max-width: 480px) { 
+	.nav__ul{
+		display: none;
+	}
+	.nav_responsive-ul{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
